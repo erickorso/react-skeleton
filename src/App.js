@@ -1,8 +1,15 @@
+import Layout from './components/Layout'
+import Routes from './Routes'
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>App</h1>
-    </div>
+    <Layout>
+      <div className="App">
+        <h1>App</h1>
+        <hr />
+        <Routes />
+      </div>
+    </Layout>
   );
 }
 
